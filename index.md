@@ -92,7 +92,7 @@
 </head>
 <body>
     <header>
-       <img src="your-photo-url.jpg" alt="Paraskevi Platanou"> <!-- Add your image here -->
+       <img src="pic.jpg" alt="Paraskevi Platanou"> <!-- Add your image here -->
         <h1>Paraskevi Platanou</h1>
         <nav>
             <a href="#about" onclick="showSection('about')">About</a>
