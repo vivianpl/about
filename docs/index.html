@@ -13,8 +13,8 @@
             color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #fff;
+            color: #333;
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
@@ -26,15 +26,8 @@
         nav {
             display: flex;
         }
-      header img {
-            border-radius: 50%;
-            width: 50px; /* Set a fixed size for the image */
-            height: 50px;
-            object-fit: cover;
-            margin-right: 20px; /* Add some spacing if needed */
-        }
         nav a {
-            color: #fff;
+            color: #333;
             text-decoration: none;
             padding: 10px 15px;
             margin: 0 5px;
@@ -43,7 +36,7 @@
             transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #777;
+            background-color: #ccc;
         }
         nav a.active {
             background-color: #007BFF;
@@ -63,9 +56,18 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
-            color: #fff;
+            background-color: #fff;
+            color: #333;
             margin-top: 20px;
+        }
+        .about-img {
+        float: left;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+        margin-bottom: 10px;
         }
     </style>
     <script>
@@ -92,7 +94,7 @@
 </head>
 <body>
     <header>
-       <img src="thepic.jpg" alt="Paraskevi Platanou"> 
+       <img src="thepic.jpg" alt="Paraskevi Platanou" class="about-img"> 
         <h1>Paraskevi Platanou</h1>
         <nav>
             <a href="#about" onclick="showSection('about')">About</a>
